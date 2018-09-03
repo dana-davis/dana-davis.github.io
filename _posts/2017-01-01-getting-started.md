@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Getting Started"
+---
+
 # Jekyll Starter Kit
 
 The Jekyll Starter Kit is a simple framework for starting your own Jekyll project. It was created out of a need to have a simple and quick framework to build my Jekyll sites from. I noticed that there were a number of things that were common among all of my Jekyll sites, from certain best practices for web development, to ways that I liked to do things, to certain styles that I always used.

@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/styles.css">
-</head>
+
+{% include head.html %}
+
 <body>
-    {% include navigation.html %}
-    <h1><a href="/index.html">My First Jekyll-Powered Blog</a></h1>
+
+  <div class="site-container">
+
+    {% include header.html %}
+
     {{ content }}
-    <h2>Recent Posts</h2>
-    <ul>
-        {% for post in site.posts %}
-            <li>
-                {{ post.date }} <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+
+    {% include footer.html %}
+
+  <div>
+
 </body>
+
 </html>
