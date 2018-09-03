@@ -1,4 +1,5 @@
 # jekyll-paginate configuration
+title: Dana Davis
 paginate:            5
 
 # Build settings
@@ -15,3 +16,12 @@ sass:
 title:		           "Jekyll Starter Kit"
 description:	       "A simple framework for starting your own Jekyll project"
 author:              "Paul Le"
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
